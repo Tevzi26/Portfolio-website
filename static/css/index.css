@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+*{
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  background-color: #ffff;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+  list-style-type: none;
+}
+
+.nav li {
+    float:left
+}
+
+li a:link, li a:visited {
+    color: #52616b;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover, li a:active {
+    background-color: #c9d6df;
+    color: #1e2022;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: auto;
+    margin-top: 1px;
+    color: #52616b;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+div.certificate {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    padding: 3%;
+}
+
+.image {
+    width: 60%;
+    background-color: grey;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.tech {
+  color: #52616b;
+  font-size: 25px;
+  padding: 10px 10px;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 10%;
+  padding: 10px 20px;
+}
+
+hr.rounded {
+  border-top: 3px solid #bbb;
+  border-radius: 2px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.iam span {
+  color: #52616b;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .logo {
+        color: #52616b;
+        font-size: 20px;
+        display:block;
+    }
+
+    .nav {
+        list-style-type: none;
+        width: 200px;
+        background-color: #ffff;
+    }
+      
+    .nav li a {
+        display: block;
+        color: #52616b;
+        padding: 8px 20px;
+        text-decoration: none;
+    }
+      
+    .nav li a:hover {
+        background-color: #c9d6df;
+        color: #1e2022;
+    }
+    .navigation-bar {
+        display: block;
+    }
+    .tech {
+      display: inline;
+    }
+}

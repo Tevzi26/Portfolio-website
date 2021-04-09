@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flask app</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="navigation-bar">
+        <div id="navigation-container">
+            <h2 class="logo">MATEVŽ KNEZ</h2>   
+            <ul class="nav">
+              <li><a href={{ url_for('home') }}>Home</a>
+              <li><a href={{ url_for('projects') }}>Projects</a>
+              <li class="active" ><a href={{ url_for('certificates') }}>Certificates</a>
+              <li><a href={{ url_for('contact_me') }}>Contact me</a>
+            </ul>
+        </div>
+    </div>
+    <div class="certificate">
+        <img class="image" src="/static/Python_certificate.jpg">
+    </div>
+</body>
+
+</html>
