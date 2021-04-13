@@ -24,7 +24,7 @@ body {
 li a:link, li a:visited {
     color: #52616b;
     padding: 10px 10px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     text-decoration: none;
 }
@@ -40,7 +40,7 @@ li a:hover, li a:active {
     margin-right: auto;
     margin-top: 1px;
     color: #52616b;
-    font-size: 20px;
+    font-size: 25px;
     padding: 0px 10px;
 }
 
@@ -91,16 +91,21 @@ hr.rounded {
   margin-bottom: 1%;
 }
 
-.iam span {
+.iam {
   color: #52616b;
   font-weight: bold;
+  text-align: center;
 }
 
-@media screen and (max-width: 700px) {
+.iam span {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
     
     .logo {
         color: #52616b;
-        font-size: 20px;
+        font-size: 21px;
         display:block;
     }
 
@@ -115,6 +120,7 @@ hr.rounded {
         color: #52616b;
         padding: 8px 20px;
         text-decoration: none;
+        font-size: 21px;
     }
       
     .nav li a:hover {
@@ -126,5 +132,9 @@ hr.rounded {
     }
     .tech {
       display: inline;
+      font-size: 21px;
+    }
+    .iam span {
+      font-size: 18px;
     }
 }
