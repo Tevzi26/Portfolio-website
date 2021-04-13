@@ -92,13 +92,19 @@ hr.rounded {
 }
 
 .iam {
-  color: #52616b;
-  font-weight: bold;
   text-align: center;
 }
 
-.iam span {
-  font-size: 18px;
+.projects {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-left: 10px;
+}
+
+.text {
+  color: #52616b;
+  font-weight: bold;
+  font-size: 20px
 }
 
 @media screen and (max-width: 800px) {
@@ -134,7 +140,10 @@ hr.rounded {
       display: inline;
       font-size: 21px;
     }
-    .iam span {
-      font-size: 18px;
+    
+    .text {
+      color: #52616b;
+      font-weight: bold;
+      font-size: 18px
     }
 }
